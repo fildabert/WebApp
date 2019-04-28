@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <title>Tic Tac Toe</title>
+    </head>
+    <body onload="startGame();">
+        <h1>Tic Tac Toe</h1>
+        <div id="message">Test</div>
+        <table>
+            <tr>
+                <td id= "1"class="box" onclick="nextMove(this)"></td>
+                <td id= "2"class="box" onclick="nextMove(this)"></td>
+                <td id= "3"class="box" onclick="nextMove(this)"></td>
+            </tr>
+            <tr>
+                <td id= "4"class="box" onclick="nextMove(this)"></td>
+                <td id= "5"class="box" onclick="nextMove(this)"></td>
+                <td id= "6"class="box" onclick="nextMove(this)"></td>
+            </tr>
+            <tr>
+                <td id= "7"class="box" onclick="nextMove(this)"></td>
+                <td id= "8"class="box" onclick="nextMove(this)"></td>
+                <td id= "9"class="box" onclick="nextMove(this)"></td>
+            </tr>
+        </table>
+        <button><a href="javascript: startGame();" id="restartButton">Restart</a></button>
+        <script src="script.js"></script>
+    </body>
+</html>

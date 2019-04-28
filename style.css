@@ -1,0 +1,39 @@
+table{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans MS";
+}
+
+body{
+    width: 300px;
+    margin: auto;
+    background-color: #D1e7ff;
+}
+
+h1{
+    border-bottom: 2px solid black;
+    font-family: "Comic Sans MS";
+    
+}
+
+#message{
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+#restartButton{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
