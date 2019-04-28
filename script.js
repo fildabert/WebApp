@@ -12,6 +12,9 @@ function nextMove(box){
         displayMessage(document.winner + " has won, please restart the game")
     }
     else if(checkForTie()){
+        for(var i = 1; i <= 9; i++){
+            document.getElementById(i).style.backgroundColor = "red";
+        }
         displayMessage("Game is tied, please restart the game")
     }
     else if(box.innerText === ""){
